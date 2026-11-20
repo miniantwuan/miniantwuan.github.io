@@ -1,6 +1,6 @@
 # Ghost Lap Privacy Policy
 
-Effective November 14, 2026
+Effective November 20, 2026
 
 Ghost Lap is an iPhone app that times your drives, walks, runs and track laps and compares them with your best. This policy explains what data the app uses, where that data goes, and the choices you have. The hosted copy of this page is at https://miniantwuan.github.io/ghostlap-privacy/.
 
@@ -8,7 +8,7 @@ Ghost Lap is an iPhone app that times your drives, walks, runs and track laps an
 
 - Your drives, routes, laps, markers and location stay on your iPhone. They are never uploaded.
 - There is no account and no sign-in.
-- Ghost Lap uses location only **While Using the App**, never in the background.
+- Ghost Lap uses location only **While Using the App** (never "Always"). While a drive, walk, run or track session you started is running, it keeps timing if you switch apps or lock the phone, and iOS shows the blue location indicator. When nothing is running, it never uses your location in the background.
 - The free version shows **non-personalized** banner ads from Google AdMob. Google may collect some device and ad-interaction data to serve those ads (see below).
 - Remove Ads is a one-time $0.99 purchase handled by Apple. After you buy it, no ads load.
 
@@ -20,7 +20,7 @@ Ghost Lap stores everything it records on your device only, in the app's own pro
 - your routes, tracks, start/finish and sector lines, segments and leave-time history
 - lap times, speeds, heat maps and the markers you drop (such as police reports)
 
-We don't run a server and don't receive any of this data. It isn't sold, shared or used for advertising. If you delete the app, iOS deletes this data with it. Ghost Lap keeps its data out of iCloud and iTunes backups.
+We don't run a server and don't receive any of this data. It isn't sold, shared or used for advertising. Unpinned one-off markers are automatically deleted after 90 days; pinned markers and markers that belong to a recurring pattern stay until you delete them or the app. If you delete the app, iOS deletes this data with it. Ghost Lap keeps its data out of iCloud and iTunes backups.
 
 ## No account
 
@@ -28,7 +28,7 @@ Ghost Lap has no accounts, no sign-up and no login. We don't ask for your name, 
 
 ## Location
 
-Ghost Lap asks for location permission **While Using the App** only. It uses your location to time sessions, draw them on the map, detect when you cross a start, finish or sector line, and place the markers you log. It never tracks you in the background. You can change or turn off this permission at any time in Settings > Privacy & Security > Location Services > Ghost Lap.
+Ghost Lap asks for location permission **While Using the App** only. It uses your location to time sessions, draw them on the map, detect when you cross a start, finish or sector line, and place the markers you log. Only while a session you started is running does it keep receiving location after you switch apps or lock the phone, so the session stays timed; iOS shows the blue location indicator while it does, and it stops the moment the session ends. There is no background tracking at any other time, no "Always" permission, and no significant-change or geofence tracking in the background. Location from a session stays on your iPhone like everything else. You can change or turn off this permission at any time in Settings > Privacy & Security > Location Services > Ghost Lap.
 
 Your location isn't given to the ad network. Ghost Lap turns off the Google Mobile Ads SDK's own location collection. Like any website or app on the internet, Google can still infer an approximate region from your device's IP address when it serves an ad.
 
@@ -69,7 +69,7 @@ Ghost Lap isn't directed to children under 13 and doesn't knowingly collect pers
 
 - **Location:** change or revoke it in iOS Settings at any time. Without it, Ghost Lap can't time sessions.
 - **Ads:** buy Remove Ads to stop all ad requests.
-- **Your data:** delete routes and sessions in the app, or delete the app to remove everything.
+- **Your data:** delete routes, sessions and markers in the app, or delete the app to remove everything. Unpinned one-off markers are also removed automatically after 90 days.
 
 ## Changes to this policy
 
